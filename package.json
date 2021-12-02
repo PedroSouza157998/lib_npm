@@ -1,0 +1,19 @@
+{
+  "name": "@pedrosouza157998/lib_npm",
+  "version": "1.0.0",
+  "description": "lib to js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroSouza157998/lib_npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroSouza157998/lib_npm/issues"
+  },
+  "homepage": "https://github.com/PedroSouza157998/lib_npm#readme"
+}
