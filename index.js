@@ -15,6 +15,7 @@ exports.sum = function (a) {
 }
 
 exports.generateArrayOfPlans = function (plan) {
+// function generateArrayOfPlans (plan) {
     //pega o primeiro elemento do array de planos (gratis, bronze, silver, gold)
     let planToFilter = 'gratis';
 
@@ -35,11 +36,14 @@ exports.generateArrayOfPlans = function (plan) {
 
     const firstPlanArrayElement = planToFilter[0];
 
-    const copyAllPlanos = JSON.parse(JSON.stringify(allPlanos));
+    const copyAllPlanos = [JSON.parse(JSON.stringify(allPlanos))]
+
+    console.log(typeof copyAllPlanos)
+    // console.log(AllPlanos)
 
     return copyAllPlanos.map(plan => {
         //define se o recurso está ativo no plano
-        plan.enabled = planToFilter.some(f => f == plan.resource);
+        plan.enabled = [planToFilter].some(f => f == plan.resource);
 
         //alguns valores dos recursos não são booleanos. Por isso é feita essa verificação para
         //concatenar no "label" o valor do recurso, como também salvar o próprio valor
