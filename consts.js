@@ -1,4 +1,4 @@
-export const allPlanos = [
+exports.allPlanos = [
 	{
 		label: 'Categorias',
 		resource: 'categorias',
@@ -105,7 +105,7 @@ export const allPlanos = [
 	// }
 ];
 
-export const configAllPlanos = [
+exports.configAllPlanos = [
 	'pedido',
 	'venda',
 	'relatorioBasico',
@@ -134,7 +134,7 @@ export const configAllPlanos = [
 	'boleto',
 ];
 
-export const configsPlanoGratis = [
+exports.configsPlanoGratis = [
 	'gratis', //valor relativo ao plano, o qual vai ser diferente dos outros
 	'pedido',
 	'venda',
@@ -164,7 +164,7 @@ export const configsPlanoGratis = [
 	// 'boleto'
 ];
 
-export const configsPlanoBronze = [
+exports.configsPlanoBronze = [
 	'bronze', //valor relativo ao plano, o qual vai ser diferente dos outros
 	'pedido',
 	'venda',
@@ -194,7 +194,7 @@ export const configsPlanoBronze = [
 	// 'boleto'
 ];
 
-export const configsPlanoSilver = [
+exports.configsPlanoSilver = [
 	'silver', //valor relativo ao plano, o qual vai ser diferente dos outros
 	'pedido',
 	'venda',
@@ -224,7 +224,7 @@ export const configsPlanoSilver = [
 	// 'boleto'
 ];
 
-export const configsPlanoGold = [
+exports.configsPlanoGold = [
 	'gold', //valor relativo ao plano, o qual vai ser diferente dos outros
 	'pedido',
 	'venda',
@@ -254,7 +254,7 @@ export const configsPlanoGold = [
 	'boleto',
 ];
 
-export const plansAnyNonBooleanValue = {
+exports.plansAnyNonBooleanValue = {
 	qtdUsuarios: {
 		gratis: 1,
 		gratis_marketplace: 1,
@@ -281,7 +281,7 @@ export const plansAnyNonBooleanValue = {
 	},
 };
 
-export const plans = [
+exports.plans = [
 	{
 		id: 2,
 		valor: 'R$ 19,90',
