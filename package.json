@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PedroSouza157998/lib_npm/issues"
   },
-  "homepage": "https://github.com/PedroSouza157998/lib_npm#readme"
+  "homepage": "https://github.com/PedroSouza157998/lib_npm#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
